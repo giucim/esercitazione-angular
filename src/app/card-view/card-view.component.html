@@ -1,0 +1,12 @@
+<div class="container" >
+    <div class="card" *ngFor="let list of users"  >
+        <div>
+          <img src="{{list.imageUrl}}" alt="cat">  </div>
+        <p>{{list.name}}</p>
+        <p>{{list.mail}}</p>
+        <p>{{list.location.address}}</p>
+        <p>{{list.location.city}}</p>
+        <p>{{list.location.cap}}</p>
+        <p><a href="#">View order</a></p>
+    </div>
+</div>
